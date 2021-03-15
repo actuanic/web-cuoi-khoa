@@ -5,7 +5,7 @@ html,body{
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    background: url(background/images.jpeg);
+    background-image: linear-gradient(to right, #000000,#0f0f0f,#121212,#262626);
     background-size: cover;
 
   
@@ -40,7 +40,7 @@ html,body{
     border-radius: 10%;
     padding: 50px;
     color: white;
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)),url(background/geometric.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)),url(background/geometric.png);
     width: 300px;
 
    
