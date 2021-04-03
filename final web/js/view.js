@@ -6,9 +6,10 @@ view.setActiveScreen = (screenName) => {
 
             document.getElementById('redirect-to-csgo').addEventListener('click', () => {
                 view.setActiveScreen('CsgoScreen');
+            
             });
-
             console.log("something");
+            
             
             
             break;
@@ -17,6 +18,7 @@ view.setActiveScreen = (screenName) => {
             document.querySelector('.home').addEventListener('click', () => {
                 view.setActiveScreen('HomeScreen')
             });
+            
 
         break;
         
